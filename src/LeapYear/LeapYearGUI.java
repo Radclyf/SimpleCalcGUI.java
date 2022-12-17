@@ -10,7 +10,7 @@ public class LeapYearGUI {
     private JButton checkButton;
 
     public LeapYearGUI() {
-        JFrame frame = new Jframe("Leap Year Checker");
+        JFrame frame = new JFrame("Leap Year Checker");
         frame.setContentPane(panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
@@ -31,6 +31,7 @@ public class LeapYearGUI {
     }
 
     public static void main(String[] args) {
+
         new LeapYearGUI();
     }
 
